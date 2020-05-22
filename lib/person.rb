@@ -10,6 +10,3 @@ attributes.each {|key, value| self.send (("#{key}="), value)}
 end
     end
 end
-
-joe_attributes = {name: "Joe", :birthday "June"}
-joe = Person.new(joe_attributes)
